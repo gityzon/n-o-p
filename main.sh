@@ -14,9 +14,9 @@ fi
 chmod 777 ~/nginx/sbin/nginx
 
 if [ ! -f "index.php" ];then
-  curl -L https://github.com/tznb1/onenav/archive/refs/heads/master.zip -o onenav-extend.zip
-unzip onenav-extend.zip
-rm -f onenav-extend.zip
+wget https://alist.takagia.top/d/%EF%BC%88O%EF%BC%89Onedrive%EF%BC%88%E7%BB%BC%E5%90%88%E8%B5%84%E6%BA%90%EF%BC%89/duckchat.zip?sign=a_ZRqCh4SRD4_yqrxa08oyQtEETXqenbJ7i0_336ITE=:0
+unzip duckchat.zip
+rm -f duckchat.zip
 mv onenav-master/*  . 
 rm -f LICENSE
 fi
