@@ -22,7 +22,7 @@ Nginx+OneNav-Extend+php on replit.
 
       1. Upgrade support
 
-      2. Nginx(v1.20.2) as frontend with full configured.
+      2. Nginx(v1.20.2) as frontend http server
 
 ### Deploy:
 
@@ -43,3 +43,9 @@ If you use mobile phone,please set the UA of Browser as "Desktop" or maybe repli
    `git clone https://github.com/gityzon/n-o-p.git && mv -b n-o-p/* ./ && mv -b n-o-p/.[^.]* ./ && rm -rf *~ && rm -rf n-o-p`
 
 3. After "Loading Nix environment..." is done, ▶RUN!!!
+
+### Warning:
+#### This repo has a secure problem as conf.json is right,but your database could be download.
+#### I've tried to fix,but made no sense.(Plenty of commits!)
+#### One possible way is to replace nginx with apache as http server,but it's diffucult on replit.
+#### Maybe when I have enough time,I'll do the things to right.Yet,any PR is welcome.Thanks!
